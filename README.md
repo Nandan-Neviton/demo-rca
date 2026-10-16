@@ -1,2 +1,3 @@
 # orders-api
-Small Flask-style service that accepts customer orders (POST /orders) and computes totals with optional discounts.
+Small service that accepts customer orders (POST /orders), computes totals with optional discounts and charges them
+through the payments service (env var PAYMENTS_URL, e.g. http://payments.internal:8080).
